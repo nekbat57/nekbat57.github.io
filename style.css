@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Samim';
+    src: url('./fonts/Samim.eot');
+    src: url('./fonts/Samim.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Samim.woff2') format('woff2'),
+         url('./fonts/Samim.woff') format('woff'),
+         url('./fonts/Samim.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'Samim';
+    src: url('./fonts/Samim-Bold.eot');
+    src: url('./fonts/Samim-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Samim-Bold.woff2') format('woff2'),
+         url('./fonts/Samim-Bold.woff') format('woff'),
+         url('./fonts/Samim-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: 'Samim';
+    src: url('./fonts/Samim-Medium.eot');
+    src: url('./fonts/Samim-Medium.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Samim-Medium.woff2') format('woff2'),
+         url('./fonts/Samim-Medium.woff') format('woff'),
+         url('./fonts/Samim-Medium.ttf') format('truetype');
+    font-weight: 500;
+  }
+
+/* reset */
+/*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
+  html {
+    font-family: 'Samim';
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+  }
+
+  body {
+      padding: 0;
+      margin: 0;
+  }
+
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all .5s ease;
+    /* -webkit-animation: fade 1s infinite;
+    -moz-animation: fade 4s infinite;
+    -o-animation: fade 4s infinite;
+    animation: fade 4s infinite; */
+  }
+  
+  h3 {
+    font-size: 2em;
+    margin: 0.67em 0
+  }
+  
+  h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 99;
+    text-align: center;
+    font-family: 'Samim', sans-serif;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
+    padding: 1em 2em;
+    line-height: 1.5;
+  }
